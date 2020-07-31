@@ -1,0 +1,132 @@
+// Variables
+$fontLight: Gravity-Light;
+$fontRegular: Gravity-Regular;
+$fontItalic: Gravity-Italic;
+
+h1,
+h3,
+h5 {
+  font-family: $fontLight;
+}
+
+.navbar-global {
+  font-family: $fontRegular;
+}
+#container-fluid-nav {
+  padding: 8px 16px;
+  background-color: white;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-title {
+  font-family: $fontRegular;
+}
+
+.card-text {
+  font-family: $fontLight;
+}
+
+.group-buttons Button {
+  font-family: $fontRegular;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.App,
+.fluid-dark {
+  background-color: #191919;
+}
+
+.App,
+.Contact {
+  min-height: 100vh;
+  padding-bottom: 100px;
+}
+
+.container-repo {
+  padding-top: 50px;
+  min-height: 100vh;
+}
+
+.scroll-text {
+  font-family: $fontItalic;
+  display: none;
+}
+
+.ReactTable a {
+  color: black;
+}
+
+.fluid-dark {
+  color: white;
+}
+.fluid-dark h3 {
+  letter-spacing: 20px;
+}
+.fluid-dark-technology,
+.fluid-dark-technology-websiteArch {
+  padding-top: 50px;
+}
+.fluid-dark-technology-websiteArch {
+  list-style-position: inside;
+  text-indent: -1.5em;
+  padding: 80px 25px;
+}
+.fluid-dark-technology-websiteArch h4 {
+  font-size: 23px;
+}
+.fluid-dark-technology-websiteArch p {
+  font-size: 13px;
+}
+.services-table {
+  color: white;
+}
+.services-table td {
+  max-width: fit-content;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.FourZeroFour {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+/* Adjusting for screen sizes */
+@media screen and (max-width: 1200px) {
+  .scroll-text {
+    display: block;
+  }
+}
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 30px;
+  }
+  p {
+    font-size: 10px;
+  }
+  .fluid-dark h3 {
+    letter-spacing: 0px;
+  }
+  .fluid-dark-technology-websiteArch {
+    padding-left: 25px;
+    list-style-position: inside;
+    text-indent: -1.35em;
+  }
+}
+@media screena and (max-width: 770px) {
+  .card-deck {
+    justify-content: start;
+  }
+}
+@media screen and (max-width: 375px) {
+  #brand {
+    font-size: 17px;
+  }
+}
