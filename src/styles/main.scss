@@ -40,8 +40,7 @@ h5 {
   background-color: #191919;
 }
 
-.App,
-.Contact {
+.wrapper {
   min-height: 100vh;
   padding-bottom: 100px;
 }
@@ -66,19 +65,18 @@ h5 {
 .fluid-dark h3 {
   letter-spacing: 20px;
 }
-.fluid-dark-technology,
-.fluid-dark-technology-websiteArch {
+.fluid-dark-technology {
   padding-top: 50px;
 }
-.fluid-dark-technology-websiteArch {
+.list-items {
   list-style-position: inside;
   text-indent: -1.5em;
   padding: 80px 25px;
 }
-.fluid-dark-technology-websiteArch h4 {
+.list-items h4 {
   font-size: 23px;
 }
-.fluid-dark-technology-websiteArch p {
+.list-items p {
   font-size: 13px;
 }
 .services-table {

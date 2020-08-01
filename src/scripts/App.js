@@ -3,14 +3,15 @@ import "bootstrap/dist/css/bootstrap.min.css"; // Importing bootstrap css
 import { Router, Route, Switch } from "react-router-dom"; // Importing React Router
 import history from "./history"; // Importing history to work with broswer history
 
-// Importing parent components
-import MainApp from "../parent components/home-component";
-import SoftwareApp from "../parent components/software-component";
-import ContactApp from "../parent components/contact-component";
-import AboutApp from "../parent components/about-component";
-import LoginApp from "../parent components/login-component";
-import Four0FourApp from "../parent components/404-component";
+// Importing pages
+import MainApp from "../pages/home";
+import SoftwareApp from "../pages/software";
+import ContactApp from "../pages/contact";
+import AboutApp from "../pages/about";
+import LoginApp from "../pages/login";
+import Four0FourApp from "../pages/404";
 
+// Main
 function App() {
   return (
     <Router history={history}>
@@ -26,5 +27,4 @@ function App() {
     </Router>
   );
 }
-
 export default App;

@@ -10,3 +10,7 @@
   font-family: Gravity-Italic;
   src: url("../assets/fonts/Gravity-Italic.otf");
 }
+@font-face {
+  font-family: Gravity-Bold;
+  src: url("../assets/fonts/Gravity-Bold.otf");
+}
